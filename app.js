@@ -9,11 +9,11 @@ import base64 from 'base-64';
 
 const sharedSecret= "77a0a1f3a2ca4e119168cf68eb5b2008";
 
-var client = redis.createClient();
+// var client = redis.createClient();
 
-client.on('error', (err) => {
-    console.log('Error' + err);
-});
+// client.on('error', (err) => {
+//     console.log('Error' + err);
+// });
 
 let app = express();
 
